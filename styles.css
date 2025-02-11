@@ -155,7 +155,8 @@ input {
     overflow: hidden;
     padding: 1.5em;
     text-align: left;
-    gap: 1em;
+    display: flex;
+    flex-direction: column;
 }
 .facture {
     text-align: left;
