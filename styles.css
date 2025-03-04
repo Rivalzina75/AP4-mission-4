@@ -125,22 +125,6 @@ input {
     justify-content: space-evenly;
     gap: 2em;
 }
-<<<<<<< HEAD
-.form-box {
-    height: 100%;
-    width: 360px;
-    color: black;
-    background: #fefefe;
-    border-radius: 8px;
-    box-shadow: 0 0 7px #7f7f7f;
-    overflow: hidden;
-    padding: 1.5em;
-    text-align: center;
-    align-content: center;
-    gap: 1em;
-}
-=======
->>>>>>> 7df0efe0d1a77b866b179cc2395151e4d1854366
 .gestion-box {
     height: 100%;
     width: 750px;
