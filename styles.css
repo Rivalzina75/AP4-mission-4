@@ -36,8 +36,8 @@ main {
     padding: 3em;
 }
 .main-container {
-    height: 600px;
-    width: 1080px;
+    height: 640px;
+    width: 1180px;
     background: ghostwhite;
     box-shadow: 0 0 12px #7f7f7f;
     border-radius: 16px;
@@ -52,6 +52,8 @@ p, label {
 input {
     margin-bottom: 0.6em;
     width: 100%;
+    padding: 3px;
+    border-radius: 4px;
 }
 .list {
     height: 100%;
@@ -59,7 +61,7 @@ input {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 5em;
     padding: 2em;
 }
 .list > a {
@@ -97,7 +99,7 @@ input {
     background-color: var(--btn-bg-color);
     border-radius: 12px;
     color: var(--main-text-color);
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
     padding: 0.8em 0.5em;
     text-align: center;
@@ -123,22 +125,9 @@ input {
     justify-content: space-evenly;
     gap: 2em;
 }
-.form-box {
-    height: 100%;
-    width: 420px;
-    color: black;
-    background: #fefefe;
-    border-radius: 8px;
-    box-shadow: 0 0 7px #7f7f7f;
-    overflow: hidden;
-    padding: 1.5em;
-    text-align: center;
-    align-content: center;
-    gap: 1em;
-}
 .gestion-box {
     height: 100%;
-    width: 720px;
+    width: 750px;
     color: black;
     background: #fefefe;
     border-radius: 8px;
@@ -147,9 +136,9 @@ input {
     display: flex;
     gap: 1em;
 }
-.mini-form-box {
+.form-box {
     height: 100%;
-    width: 180px;
+    width: 200px;
     background: var(--main-bg-color);
     color: var(--main-text-color);
     overflow: hidden;

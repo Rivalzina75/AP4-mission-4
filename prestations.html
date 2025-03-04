@@ -20,16 +20,32 @@
                 <div class="main-header">Gestions des Prestations</div>
                 <div class="main-box">
                     <div class="gestion-box">
-                        <div class="mini-form-box">
+                        <div class="form-box">
                             <form>
-                                <label for="presID">ID : </label>
-                                <input type="text" id="presID" name="presID">
+                                <label for="presID">Référence : </label>
+                                <input type="text" id="presID" name="presID" placeholder="Référence">
                                 <label for="presName">Nom : </label>
-                                <input type="text" id="presName" name="presName">
+                                <input type="text" id="presName" name="presName" placeholder="Nom">
                                 <label for="presPrice">Prix : </label>
-                                <input type="text" id="presPrice" name="presPrice">
+                                <input type="text" id="presPrice" name="presPrice" placeholder="Prix">
                             </form>
                             <button class="add-btn">Ajouter</button>
+                        </div>
+                        <div class="table-box">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Référence</th>
+                                        <th>Nom</th>
+                                        <th>Prix HT</th>
+                                    </tr>
+                                    <tr>
+                                        <td>TRACEUR</td>
+                                        <td>Utilisation du traceur</td>
+                                        <td>0,356</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
